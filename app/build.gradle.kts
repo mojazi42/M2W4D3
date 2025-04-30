@@ -63,5 +63,13 @@ dependencies {
 
     implementation (libs.lifecycle.viewmodel.compose)
 
+    testImplementation (libs.junit)
+
+    testImplementation (libs.kotlinx.coroutines.test)
+
+    testImplementation (libs.mockito.core)
+    testImplementation (libs.mockito.kotlin)
+
+    testImplementation (libs.kotlinx.coroutines.test.v171)
 
 }
